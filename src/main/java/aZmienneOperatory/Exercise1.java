@@ -1,4 +1,4 @@
-package aZmienne_operatory;
+package aZmienneOperatory;
 
 public class Exercise1 {
     public static void main(String[] args) {
