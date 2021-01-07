@@ -22,7 +22,7 @@ public class Tax {
                 System.out.println("Twój podatek to: " + myTax + " zł.");
             }
 
-            if (myIncome < taxLimit) {
+            if (myIncome <= taxLimit) {
                 double myTax = myIncome * minTax;
                 System.out.println("Twój podatek to: " + myTax + " zł.");
             }
