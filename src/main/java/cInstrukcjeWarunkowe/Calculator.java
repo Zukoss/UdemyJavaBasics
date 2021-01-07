@@ -22,21 +22,22 @@ public class Calculator {
             switch (sign) {
                 case '+':
                     double x = firstNumber + secondNumber;
-                    System.out.println("Wynik dodawanie to: " + x);
+                    System.out.println(firstNumber + " " + sign + " " + secondNumber + " = " + x);
                     break;
 
                 case '-':
                     double y = firstNumber - secondNumber;
-                    System.out.println("Wynik odejmowania to: " + y);
+                    System.out.println(firstNumber + " " + sign + " " + secondNumber + " = " + y);
                     break;
 
                 case '*':
                     double z = firstNumber * secondNumber;
-                    System.out.println("Wynik mnożenia to: " + z);
+                    System.out.println(firstNumber + " " + sign + " " + secondNumber + " = " + z);
                     break;
 
                 case '/':
                     double v = firstNumber / secondNumber;
+                    System.out.println(firstNumber + " " + sign + " " + secondNumber + " = " + v);
                     break;
 
                 default:

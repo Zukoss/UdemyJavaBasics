@@ -27,6 +27,6 @@ public class Tax {
                 System.out.println("Twój podatek to: " + myTax + " zł.");
             }
         }
-        System.out.println("Wprowadź dodatnią sumę dochodu.");
+        System.out.println("Nie musisz płacić podatku.");
     }
 }
