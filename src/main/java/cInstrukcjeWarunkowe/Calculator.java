@@ -6,18 +6,22 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Podaj pierwszą liczbę: ");
-        double firstNumber = sc.nextDouble();
-        System.out.println("Podaj drugą liczbę: ");
-        double secondNumber = sc.nextDouble();
+        System.out.println("Wpisz ''start'', aby rozpocząć program:");
+        String start = sc.nextLine();
 
-        System.out.println("Wybierz rodzaj operacji wpisując odpowiedni znak.");
-        System.out.println("Wykonanie dodawania wpisz => +");
-        System.out.println("Wykonanie odejmowania wpisz => -");
-        System.out.println("Wykonanie mnożenia wpisz => *");
-        System.out.println("Wykonanie dzielenia wpisz => /");
+        while (start.equals("start")) {
+            System.out.println("Podaj pierwszą liczbę: ");
+            double firstNumber = sc.nextDouble();
+            System.out.println("Podaj drugą liczbę: ");
+            double secondNumber = sc.nextDouble();
 
-        char sign = sc.next().charAt(0);
+            System.out.println("Wybierz rodzaj operacji wpisując odpowiedni znak.");
+            System.out.println("Wykonanie dodawania wpisz => +");
+            System.out.println("Wykonanie odejmowania wpisz => -");
+            System.out.println("Wykonanie mnożenia wpisz => *");
+            System.out.println("Wykonanie dzielenia wpisz => /");
+
+            char sign = sc.next().charAt(0);
 
             switch (sign) {
                 case '+':
@@ -43,5 +47,20 @@ public class Calculator {
                 default:
                     System.out.println("Wpisz znak prawidłowy znak dla operacji podanych na początku programu.");
             }
+            System.out.println();
+            System.out.println("Wpisz ''exit'', aby przerwać program.");
+            System.out.println("Wpisz ''con'', aby kontynuować program");
+
+            String exitLoop = sc.nextLine();
+
+            if (exitLoop.equals("exit")) {
+                break;
+            }
+            else if (exitLoop.equals("con")) {
+                System.out.println("Kontynuje program.");
+            } else {
+                System.out.println("Wpisz prawidłową komendę.");
+            }
+        }
     }
 }
