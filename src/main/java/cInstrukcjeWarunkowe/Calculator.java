@@ -47,11 +47,14 @@ public class Calculator {
                 default:
                     System.out.println("Wpisz znak prawidłowy znak dla operacji podanych na początku programu.");
             }
+
             System.out.println();
             System.out.println("Wpisz ''exit'', aby przerwać program.");
             System.out.println("Wpisz ''con'', aby kontynuować program");
 
             String exitLoop = sc.nextLine();
+            System.out.println("Wpisałeś ==> " + exitLoop + " <== ...");
+
 
             if (exitLoop.equals("exit")) {
                 break;
