@@ -6,12 +6,14 @@ public class Tax {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int taxLimit = 85528;
+        double taxLimit = 85528;
         double minTax = 0.17;
         double maxTax = 0.32;
 
+        System.out.println("Wprowadź sumę używając przecinka!");
         System.out.println("Wprowadź wysokość przychodu w złotówkach:");
-        int myIncome = sc.nextInt();
+        double myIncome = sc.nextDouble();
+
         if (myIncome > 0) {
             if (myIncome > taxLimit) {
                 double taxConstant = taxLimit * minTax;
