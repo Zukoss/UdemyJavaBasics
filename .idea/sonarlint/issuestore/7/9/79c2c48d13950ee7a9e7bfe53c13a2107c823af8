@@ -1,0 +1,28 @@
+
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ç·„‡şÿÿÿÿ8Óë‹ší.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(æ…©8Óë‹ší.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Óë‹ší.
+]
+java:S1854;";Remove this useless assignment to local variable "maxLong".(®’«İÿÿÿÿÿ8Óë‹ší.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(Ü¥«æúÿÿÿÿ8Óë‹ší.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(È›½Éùÿÿÿÿ8Óë‹ší.
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(´Ï¾çùÿÿÿÿ8Óë‹ší.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚ØÆúÿÿÿÿ8Óë‹ší.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(ó¿ùà8Óë‹ší.
+T
+java:S25894"7Remove this expression which always evaluates to "true"(ïûıÚ8Óë‹ší.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ï¿8Óë‹ší.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ı‚µÿÿÿÿÿ8Óë‹ší.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(Ï«‡¡ÿÿÿÿÿ8Óë‹ší.
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Óë‹ší.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(¡¹¬È8Óë‹ší.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á–òè
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Óë‹ší.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(â›à½ûÿÿÿÿ8Óë‹ší.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(„Ã’ˆüÿÿÿÿ8Óë‹ší.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(Èâ˜×üÿÿÿÿ8Óë‹ší.
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(İ˜¿ò8Óë‹ší.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Óë‹ší.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Óë‹ší.
+N
+java:S1481;",Remove this unused "maxLong" local variable.(®’«İÿÿÿÿÿ8Óë‹ší.
