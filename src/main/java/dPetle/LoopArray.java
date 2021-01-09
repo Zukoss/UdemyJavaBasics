@@ -25,13 +25,5 @@ public class LoopArray {
             System.out.println("Wartość podnoszona do tablicy to: " +table[j]);
             count--;
         }
-
-        for (int k = 0; k < 10; k++) {
-            int suma = 0;
-            System.out.println("Sumowanie elementów tablicy:");
-            suma = suma + table[k];
-            System.out.println("Suma elementu ==> " + suma);
-            System.out.println(table[k]);
-        }
     }
 }

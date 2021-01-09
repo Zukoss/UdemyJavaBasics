@@ -15,3 +15,9 @@ W
 'src/main/java/dPetle/LoopExercise1.java,2\2\22c0793250f4cffad560f5a79c1a9aec73d3d083
 b
 2src/main/java/cInstrukcjeWarunkowe/Calculator.java,2\a\2ab461927fe2561a587711e3d31c8c0faed60e55
+R
+"src/main/java/dPetle/EvenNumb.java,1\9\194d1af447542691a779cf41468829af2c5f7865
+W
+'src/main/java/dPetle/LoopExercise2.java,6\f\6f13ef3b721d21e6893dff34ad9214d8f4659920
+S
+#src/main/java/dPetle/LoopArray.java,5\f\5f7ef0f8b0954bd50edc7d4ca6a17652e1903941
