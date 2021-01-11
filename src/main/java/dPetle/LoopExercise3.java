@@ -9,21 +9,14 @@ public class LoopExercise3 {
 
         // x! = 5 * 4 * 3 * 2 * 1 = 120.
         int x = 5;
+        int s = 1;
+        int c = 1;
 
-        for (int i = 1; i <= x; i++) {
-
-            for (int j = 0; j < 1; j++) {
-                System.out.println(j);
-
-            }
+        for (int i = 1; i <= x ; i++ ) {
+            s++;
+            s = c;
+            s = s * (c - 1);
+            System.out.println(s);
         }
     }
 }
-        //System.out.println("Wartość i: " + i);
-        //int y = i;
-        //y = y + 1;
-        //int z = i * y;
-        //System.out.println("Y: " + y);
-        //System.out.println("Z: " + z);
-        //System.out.println("Wartość końcowa y: " + z);
-        //System.out.println();
