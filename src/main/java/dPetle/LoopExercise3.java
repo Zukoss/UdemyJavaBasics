@@ -8,15 +8,13 @@ public class LoopExercise3 {
     public static void main(String[] args) {
 
         // x! = 5 * 4 * 3 * 2 * 1 = 120.
-        int x = 5;
+        int n = 5;
+        int i = 1;
         int s = 1;
-        int c = 1;
 
-        for (int i = 1; i <= x ; i++ ) {
-            s++;
-            s = c;
-            s = s * (c - 1);
-            System.out.println(s);
+        for (; i <= n ; i++ ) {
+            s = s * i;
         }
+        System.out.println("Silnia z " + n + "! = " + s);
     }
 }
