@@ -3,17 +3,13 @@ public class Main {
 
 
     public static void main(String[] args) {
-        int n = 5;
-        int i = 1;
-        int s = 1;
+        int liczbaGwiazdek = 1;
+        int space = 5;
 
-        while(i <= n) {
-            s = s * i;
-            i++;
-        }
 
-        System.out.print(n);
-        System.out.print("! = ");
-        System.out.println(s);
+
+            for (int k = 5; space <= k; space--) {
+                System.out.print("-");
+            }
     }
 }

@@ -3,7 +3,7 @@ package dPetle;
 public class LoopArraySum {
     public static void main(String[] args) {
 
-        int[] table = new int[200];
+        int[] table = new int[10];
         int suma = 0;
         int x = 0;
 
@@ -13,7 +13,7 @@ public class LoopArraySum {
             x = table[i] = x;
             x++;
             System.out.println(x);
-            suma = suma + x;
+            suma += + x;
             System.out.println("Suma tabeli: " + suma);
         }
     }
