@@ -18,7 +18,7 @@ public class LoopExercise6 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Narysujemy razem z Pawciem świąteczne drzewko! :) Wprowadź liczbę, aby wyznaczyć jego wielkość ;D ");
-        System.out.println("Pamiętaj, żę maksymalna wielkość wynosi ==> 112 <==");
+        System.out.println("Pamiętaj! Maksymalna wielkość wynosi ==> 112 <==");
         int n = sc.nextInt();
         int liczbaGwiazdek = 1;
         int liczbaSpace = n - 1;
