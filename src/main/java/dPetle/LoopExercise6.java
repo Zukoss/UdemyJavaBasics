@@ -10,10 +10,16 @@ podaniu liczby n narysujesz za pomocą * (gwiazdki) drzewko choinkowe o wysokoś
 *********
  */
 
+import java.util.Scanner;
+
 public class LoopExercise6 {
     public static void main(String[] args) {
 
-        int n = 5;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Narysujemy razem z Pawciem świąteczne drzewko! :) Wprowadź liczbę, aby wyznaczyć jego wielkość ;D ");
+        System.out.println("Pamiętaj, żę maksymalna wielkość wynosi ==> 112 <==");
+        int n = sc.nextInt();
         int liczbaGwiazdek = 1;
         int liczbaSpace = n - 1;
 
@@ -25,12 +31,17 @@ public class LoopExercise6 {
             liczbaSpace--;
 
 
-            for (int j = 1; j <= liczbaGwiazdek; j++) {
-                if (liczbaGwiazdek % 2 == 0) {
-                    System.out.print("*");
+            for (int j = 1; j <= n; j++) {
+                if (liczbaGwiazdek % 2 != 0) {
+                    for (int s = 1; s <= liczbaGwiazdek; s++) {
+                        System.out.print("*");
+                    }
+                    System.out.println();
                 }
-                System.out.println();
                 liczbaGwiazdek++;
+                if (liczbaGwiazdek % 2 == 0) {
+                    break;
+                }
             }
         }
     }
