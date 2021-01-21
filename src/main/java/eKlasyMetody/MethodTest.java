@@ -1,4 +1,4 @@
-package KlasyMetody;
+package eKlasyMetody;
 
 public class MethodTest {
 
