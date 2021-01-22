@@ -17,7 +17,7 @@ public class StringMethods1 {
     public static void main(String[] args) {
         String name = "Paweł";
         String surname = "Żukowski";
-        String nameSurname = "Paweł Żukowski";
+        String nameSurname = name + " " + surname;
 
         System.out.println("a) Ilość znaków. Name: " + name.length() + ". Surname: " + surname.length()
                 + ". NameSurname: " + nameSurname.replaceAll(" ", "").length());
