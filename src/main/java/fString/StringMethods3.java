@@ -13,5 +13,13 @@ public class StringMethods3 {
         for(int i = verticalTable.length - 1; i >= 0; i--) {
             System.out.println(verticalTable[i]);
         }
+
+        //Second Method
+
+        System.out.println("Second method without using lables.");
+
+        for (int k = verticalString.length() - 1; k >= 0 ; k--) {
+            System.out.print(verticalString.charAt(k));
+        }
     }
 }
