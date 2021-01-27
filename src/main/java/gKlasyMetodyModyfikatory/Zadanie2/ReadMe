@@ -1,0 +1,11 @@
+2. Napisz klasę, która w konstruktorze będzie przyjmować tablicę oraz będzie posiadać cztery metody:
+- zliczającą sumę wszystkich elementów z tablicy
+- liczącą średnią
+- znajdującą wartość najmniejszą
+- znajdującą wartość największą
+
+Każda z metod powinna zwracać wynik jako int.
+Utwórz pole przechowujące tablicę. Załóż, że w tablicy będą tylko liczby całkowite.
+Pola będą prywatne a metody i konstruktor publiczne.
+Klasę, pole i metody nazwij według własnego uznania.
+Przetestuj całość w main.

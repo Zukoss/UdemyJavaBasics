@@ -14,7 +14,7 @@ public class StringMethods2 {
         }
 
         //Secod Method
-        System.out.println("Second method without using lables.");
+        System.out.println("Second method without using table.");
 
         for (int k = 0; k < verticalString.length(); k++) {
             System.out.println(verticalString.charAt(k));

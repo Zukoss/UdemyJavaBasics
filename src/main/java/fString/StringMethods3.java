@@ -10,15 +10,15 @@ public class StringMethods3 {
         char[] verticalTable = verticalString.toCharArray();
         System.out.println("Długość tablicy to: " + verticalTable.length);
 
-        for(int i = verticalTable.length - 1; i >= 0; i--) {
+        for (int i = verticalTable.length - 1; i >= 0; i--) {
             System.out.println(verticalTable[i]);
         }
 
         //Second Method
 
-        System.out.println("Second method without using lables.");
+        System.out.println("Second method without using table.");
 
-        for (int k = verticalString.length() - 1; k >= 0 ; k--) {
+        for (int k = verticalString.length() - 1; k >= 0; k--) {
             System.out.print(verticalString.charAt(k));
         }
     }
