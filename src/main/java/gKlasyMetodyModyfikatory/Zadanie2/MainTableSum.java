@@ -10,12 +10,12 @@ public class MainTableSum {
 
         System.out.println("****************************************************");
         System.out.println("Suma liczb int tablicy1 to: " + table.allSum());
-        System.out.println("Średnia z tablicy1: " + table.average());
+        System.out.println("Średnia z tablicy1: " + table.average()); // Błąd, tablica ma 10 elementów;
         System.out.println("Maksymalny element tablicy1: " + table.maxTable());
         System.out.println("Minimalny element tablicy1: " + table.minTable());
         System.out.println("****************************************************");
         System.out.println("Suma liczb int tablicy2 to: " + table1.allSum());
-        System.out.println("Średnia z tablicy2: " + table1.average());
+        System.out.println("Średnia z tablicy2: " + table1.average()); // Błąd, tablica ma 10 elemetów;
         System.out.println("Maksymalny element tablicy2: " +table1.maxTable());
         System.out.println("Minimalny element tablicy2: " + table1.minTable());
         System.out.println("****************************************************");

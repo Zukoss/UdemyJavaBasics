@@ -4,7 +4,7 @@ public class Programmer {
     private String name;
     private String surname;
     private String languageTech;
-    private int earnings;
+    private double earnings;
 
     public String getName() {
         return name;
@@ -15,14 +15,14 @@ public class Programmer {
     public String getLanguageTech() {
         return languageTech;
     }
-    public int getEarnings() {
+    public double getEarnings() {
         return earnings;
     }
 
     public Programmer() {
     }
 
-    public Programmer(String setName, String setSurname, String setLanguageTech, int setEarnings) {
+    public Programmer(String setName, String setSurname, String setLanguageTech, double setEarnings) {
         name = setName;
         surname = setSurname;
         languageTech = setLanguageTech;

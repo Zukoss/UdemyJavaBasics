@@ -3,10 +3,6 @@ package gKlasyMetodyModyfikatory.Zadanie2;
 public class TableMethods {
     private int[] randomTable = new int[10]; //{10, 142, 1111, 50, 69, 1, 0, 2569, 99, -500};
 
-
-    public TableMethods() {
-    }
-
     public TableMethods(int table1, int table2, int table3, int table4, int table5) {
         randomTable[0] = table1;
         randomTable[1] = table2;
@@ -29,7 +25,7 @@ public class TableMethods {
     }
 
     public int minTable() {
-        int min = randomTable[0];
+        int min = randomTable[0]; // Można użyć Integer.MIN_VALUE;
         for (int i = 0; i < randomTable.length; i++) {
             if(randomTable[i] < min) {
                 min = randomTable[i];
@@ -39,7 +35,7 @@ public class TableMethods {
     }
 
     public int maxTable() {
-        int max = randomTable[0];
+        int max = randomTable[0]; // Można użyć Integer.MAX_VALUE;
         for (int i = 0; i < randomTable.length; i++) {
             if(randomTable[i] > max) {
                 max = randomTable[i];
@@ -60,8 +56,9 @@ public class TableMethods {
         int tableAverage = 0;
         for (int i = 0; i < randomTable.length; i++) {
             tableAverage += randomTable[i];
-        }
+            }
         tableAverage = tableAverage / randomTable.length;
+
         return tableAverage;
     }
 }
