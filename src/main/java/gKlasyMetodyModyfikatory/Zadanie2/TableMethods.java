@@ -1,9 +1,5 @@
 package gKlasyMetodyModyfikatory.Zadanie2;
 
-import java.util.Arrays;
-
-import static java.util.Arrays.stream;
-
 public class TableMethods {
     private int[] randomTable = new int[10]; //{10, 142, 1111, 50, 69, 1, 0, 2569, 99, -500};
 
@@ -25,7 +21,7 @@ public class TableMethods {
         randomTable[2] = tabl3;
         randomTable[3] = tabl4;
         randomTable[4] = tabl5;
-        randomTable[5] = tabl6; // rozwiąż dlaczego ???
+        randomTable[5] = tabl6; // rozwiąż dlaczego ??? Był błąd, zbyt mała ilość elementów tabeli.
         randomTable[6] = tabl7;
         randomTable[7] = tabl8;
         randomTable[8] = tabl9;
