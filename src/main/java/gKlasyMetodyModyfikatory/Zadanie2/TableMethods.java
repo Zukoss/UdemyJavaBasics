@@ -5,8 +5,11 @@ import java.util.Arrays;
 import static java.util.Arrays.stream;
 
 public class TableMethods {
-    private int[] randomTable = new int[5]; //{10, 142, 1111, 50, 69, 1, 0, 2569, 99, -500};
+    private int[] randomTable = new int[10]; //{10, 142, 1111, 50, 69, 1, 0, 2569, 99, -500};
 
+
+    public TableMethods() {
+    }
 
     public TableMethods(int table1, int table2, int table3, int table4, int table5) {
         randomTable[0] = table1;

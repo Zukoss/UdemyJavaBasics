@@ -1,5 +1,7 @@
 package gKlasyMetodyModyfikatory.Zadanie2;
 
+import jdk.swing.interop.SwingInterOpUtils;
+
 public class MainTableSum {
     public static void main(String[] args) {
         TableMethods table = new TableMethods(10, 2, -6, 15, 30);
