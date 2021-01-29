@@ -1,15 +1,15 @@
 package hDziedziczenie;
 
-public class Osoba {
-    String imie;
-    String nazwisko;
+public class Osoba extends MainDziedziczenie {
+    protected String name;
+    protected String surname;
 
-    Osoba(String imie, String nazwisko) {
-        this.imie = imie;
-        this.nazwisko = nazwisko;
+    public Osoba(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
     }
 
-    void przedstawSie() {
-        System.out.printf("Jestem " + imie + " " + nazwisko);
+    public void przedstawSie() {
+        System.out.print("Jestem " + name + " " + surname);
     }
 }
