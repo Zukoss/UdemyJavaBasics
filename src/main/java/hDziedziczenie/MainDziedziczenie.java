@@ -2,8 +2,8 @@ package hDziedziczenie;
 
 public class MainDziedziczenie {
     public static void main(String[] args) {
-        Pracownik pracownik = new Pracownik("Paweł", "Żukowski", "Oracle", "programmer");
+        Worker worker = new Worker("Paweł", "Żukowski", "Oracle", "programmer");
 
-        pracownik.przedstawSie();
+        worker.przedstawSie();
     }
 }
