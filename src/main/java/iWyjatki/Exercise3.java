@@ -9,8 +9,8 @@ public class Exercise3 {
             System.out.println("Circuit of circle:  " + Matma.circuitOfCircle(2));
             System.out.println("Field of cicrle: " + Matma.fieldOfCircle(-2));
         } catch (MinusNumbRException e) {
-            System.out.println("Enter more than zero.");
+            System.out.println(e.getMessage());
         }
-        Matma.circuitOfCircle(-1); //Wyjątek nie musi być koniecznie obsłużony bo dziedziczy po RuntimeException;
+        Matma.circuitOfCircle(2); //Wyjątek nie musi być koniecznie obsłużony bo dziedziczy po RuntimeException;
     }
 }

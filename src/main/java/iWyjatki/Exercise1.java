@@ -15,8 +15,7 @@ public class Exercise1 {
     public double division(int firstNum, int secondNum) {
         a = firstNum;
         b = secondNum;
-        int quotient = a / b;
-        return quotient;
+        return a / b;
     }
 
     public static void main(String[] args) {
