@@ -1,10 +1,10 @@
 package hDziedziczenie;
 
-public class Osoba extends MainDziedziczenie {
+public class Person extends MainDziedziczenie {
     protected String name;
     protected String surname;
 
-    public Osoba(String name, String surname) {
+    public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }

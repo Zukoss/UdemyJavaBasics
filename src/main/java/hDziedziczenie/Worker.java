@@ -1,11 +1,11 @@
 package hDziedziczenie;
 
-public class Pracownik extends Osoba {
+public class Worker extends Person {
 
     private final String companyName;
     private final String position;
 
-    public Pracownik(String name, String surname, String companyName, String position) {
+    public Worker(String name, String surname, String companyName, String position) {
         super(name, surname);
         this.position = position;
         this.companyName = companyName;
