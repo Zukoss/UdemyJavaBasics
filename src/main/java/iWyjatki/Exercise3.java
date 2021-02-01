@@ -6,7 +6,7 @@ public class Exercise3 {
     public static void main(String[] args) {
 
         try {
-            System.out.println("Circuit of circle:  " + Matma.circuitOfCircle(2));
+            System.out.println("Circuit of circle:  " + Matma.circuitOfCircle(4));
             System.out.println("Field of cicrle: " + Matma.fieldOfCircle(-2));
         } catch (MinusNumbRException e) {
             System.out.println(e.getMessage());
