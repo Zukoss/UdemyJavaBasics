@@ -5,10 +5,17 @@ import jAbstractInterface.Exercise2.Circle;
 import jAbstractInterface.Exercise2.Rectangle;
 
 public class MainAI {
+
+    public interface Info {
+        void showInfo();
+    }
+
+
     public static void main(String[] args) {
         DeathStar deathStar = new DeathStar();
         Circle circle = new Circle(4);
-        Rectangle rectangle = new Rectangle(4,5);
+        Rectangle rectangle = new Rectangle(4,6);
+        System.out.println();
         deathStar.laserAttack();
         System.out.println();
         System.out.println("Circuit of circle: " + circle.circuit() + " m.");
@@ -16,5 +23,15 @@ public class MainAI {
         System.out.println();
         System.out.println("Circuit of rectangle: " + rectangle.circuit() + " m.");
         System.out.println("Field of rectangle: " + rectangle.field() + " m2.");
+
+        Info infoAnonymous = new Info() {
+            @Override
+            public void showInfo() {
+                System.out.println("Info taken from anonymous class.");
+            }
+        };
+        System.out.println();
+        infoAnonymous.showInfo();
+
     }
 }
