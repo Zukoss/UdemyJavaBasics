@@ -1,8 +1,8 @@
 package jAbstractInterface;
 
-import jAbstractInterface.Exercise1.DeathStar;
-import jAbstractInterface.Exercise2.Circle;
-import jAbstractInterface.Exercise2.Rectangle;
+import jAbstractInterface.AIExercise1.DeathStar;
+import jAbstractInterface.AIExercise2.Circle;
+import jAbstractInterface.AIExercise2.Rectangle;
 
 public class MainAI {
 
